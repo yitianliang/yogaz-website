@@ -1,0 +1,217 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#yogazfont {
+        font-family:"Comfortaa";
+    }
+
+.container {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+
+
+.headline1 {
+	font-size: 100%;
+	color: white;
+	width: 100%;
+}
+
+/* Changed, Gradient top */
+.navbar-collapse {
+    background: transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Control the nav words color */
+.navbar-collapse a:hover {
+    color: #00aaff !important;
+    background: transparent;
+    outline: 0
+}
+
+.navbar-collapse a {
+    transition: color 0.5s ease-in-out;
+}
+/*-webkit-transition ;-moz-transition*/
+.top-nav {
+    padding: 0;
+    background: #000;
+}  
+
+nav {
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #d64e1c; 
+}
+
+
+#navbarSupportedContent ul li a {
+	color: white;
+}
+.dropdown-menu {
+	background-color: #e06030;
+	border: 1px solid white;
+}
+
+nav p{
+	color: white;
+}
+
+/* SLIDER */
+.carousel {
+
+}
+
+.carousel img {
+	width: 100%;
+	height: 100%;
+
+}
+
+/* SLIDER caption box */
+.carousel-caption {
+	bottom: 50%;
+	text-align:left;
+	border-radius: 10px;
+	width:600px;
+	top:10%;
+	left:10%;
+	bottom:auto;
+	font-size: 40px;
+	color: #f28123;
+
+	}
+
+/*trainers page*/
+
+.text-center {
+    margin: 2%;
+    padding-bottom: 2%;
+    float: left;
+}
+
+.card {
+    background-color: antiquewhite;
+}
+
+.col div ul li {
+    background-color: antiquewhite;
+}
+
+/* FOOTER */
+footer {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	color: #f28123;
+	background-color: #f28123;
+}
+
+footer a {
+	color: black;
+	bottom: 0px;
+}
+
+/*SIGNUP.HTML CSS*/
+#signup-body {
+	
+}
+
+#signup-body .container {
+	background-color: #f5f5f5;
+}
+
+#signup-body footer {
+	background-color: #f5f5f5;
+}
+
+#signup-logo {
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#signup-body h2 {
+	text-align: center;
+}
+
+#container-signup img {
+	border-radius: 10px;
+}
+
+/*PROFILE PAGE CSS*/
+#profile .container {
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profile-header {
+	height: 300px;
+	width: 100%;
+	background-image: url("http://getwallpapers.com/wallpaper/full/e/a/c/90761.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#profile-picture img{
+	height: 100%;
+	margin-top: -150px;
+	border-radius: 500px;
+}
+
+#profile-main {
+	margin-top: -80px;
+}
+
+.tab-pane {
+	border: 0px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 500px;
+	padding: 20px;
+}
+
+main #myTabContent {
+	padding-bottom: 15px;
+}
+
+
+/* RESPONSIVE DESIGN WHEN SCREEN SIZE IS SMALLER THAN 880px */
+@media screen and (max-width: 770px) {
+	.container {
+    	width: 100%;
+  	}
+
+  	.dropdown-item {
+  		text-align: center;
+  	}
+
+	nav #nav-buttons-inside {
+		margin: 0 auto;
+	}
+	.carousel img {
+		width: auto;
+		height: auto;
+	}
+	.carousel-caption {
+		bottom: 10%;
+	}
+
+	/*SIGNUP.HTML CSS*/
+	#container-signup img {
+		border-radius: 10px;
+		display: none;
+	}
+}
+
+

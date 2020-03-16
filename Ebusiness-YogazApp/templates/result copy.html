@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <body>
+      <div>
+         <p>You have submitted the following details: </p>
+      </div>
+
+      <b>Thanks {{ result['firstName'] }} for the registration</b><br>
+      <b>An email has been sent to {{ result['email'] }} for confirmation</b><br>
+      <b>Debug info:</b>
+      <p>{{ result['lastName'] }} {{ result['password'] }} {{ result['email'] }} {{ result['address'] }} {{ result['address2'] }} {{ result['country'] }} {{ result['state'] }} {{  result['zip'] }}</p>
+
+    <a href = "/index.html">Go back home</a>
+
+   </body>
+</html>
+

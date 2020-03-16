@@ -1,0 +1,125 @@
+{
+
+  "user": [
+    {
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "description": "hey im a user"
+    },
+    {
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "description": "hey im a user"
+    }
+  ],
+
+  "trainer": [
+    {
+      "name": "Amy P.",
+      "email": "amy.ping@gmail.com",
+      "description": "Yoga takes you into the present moment, the only place where life exists.",
+      "image": "../static/pic/trainer/p1.png"
+    },
+    {
+      "name": "Clarice M.",
+      "email": "clarice.min@gmail.com",
+      "description": "he only person you have to spend the rest of your life with is you. Be kind to yourself.",
+      "image": "../static/pic/trainer/p2.png"
+    },
+    {
+      "name": "Tony F.",
+      "email": "tony.ferris@gmail.com",
+      "description": "You cannot control what goes on inside. But you can always control what goes on inside.",
+      "image": "../static/pic/trainer/p3.png"
+    },
+    {
+      "name": "Rachel C.",
+      "email": "rachel.choo@gmail.com",
+      "description": "Fall in love with your own body and all else will fall into place",
+      "image": "../static/pic/trainer/p4.png"
+    },
+    {
+      "name": "Michael S.",
+      "email": "michael.steven@gmail.com",
+      "description": "If you change the way you look at things, the things you look at change.",
+      "image": "../static/pic/trainer/p5.png"
+    },
+    {
+      "name": "Jasmine H.",
+      "email": "jasmine.hathaway@gmail.com",
+      "description": "Be yourself, everyone else is already taken.",
+      "image": "../static/pic/trainer/p6.png"
+    },
+    {
+      "name": "Esther G.",
+      "email": "esther.griffin@gmail.com",
+      "description": "Take care of your body, it’s the only place you have to live.",
+      "image": "../static/pic/trainer/p7.png"
+    }
+    {
+      "name": "Alita H.",
+      "email": "alita.hopkins@gmail.com",
+      "description": "Be the change you wish to see if the world.",
+      "image": "../static/pic/trainer/p8.png"
+    }
+
+  ],
+
+  "class": [
+    {
+      "name": "Basics",
+      "image": "../static/pic/classtype/type1.jpg",
+      "description": "Trying out yoga for the first time or simply enjoy practicing the fundamentals of yoga? Go back to basics with foundational postures to condition and awaken the body. Get ready to sweat it out as you relearn the key poses during out Basics Yoga Class! Work on building strength and stability in your Warrior Poses, and fire up the front and back body with some basic Core work.",
+      "teacher": "Firnaz",
+      "schedule": {
+        "date": "10/10/2019",
+        "time": "10.00 AM"
+      },
+      "availability": "closed"
+    },
+    {
+      "name": "Core",
+      "image": "../static/pic/classtype/type2.jpg",
+      "description": "This is unlike a regular yoga class that promotes general strength and flexibility - The class focuses on sets of static postures and repetitive movements that are aimed at strengthening the core muscles.Postures and exercises in the class are basic and do not require prior yoga experience, but physical intensity of the class is moderate to high. Core strength is an important key to mastering advance poses like arm balances and inversions!",
+      "teacher": "trainer2",
+      "schedule": {
+        "date": "10/11/2019",
+        "time": "10.00 AM"
+      },
+      "availability": "open"
+    },
+    {
+      "name": "Hot Yoga",
+      "image": "../static/pic/classtype/type3.jpg",
+      "description": "A fix set of 26 postures and 2 Breathing exercises that systematically work every part of the body, giving your internal organs,veins, ligaments, and every muscles what they need to maintain optimum health and maximum function. The room will be heated to a temperature of around 40°C",
+      "teacher": "trainer2",
+      "schedule": {
+        "date": "10/11/2019",
+        "time": "10.00 AM"
+      },
+      "availability": "open"
+    },
+    {
+      "name": "Hot Stretch",
+      "image": "../static/pic/classtype/type4.jpg",
+      "description": "This is a great class to work on your flexibility! Gentle movements and longer holds help relieve tense and tight muscles, pain, and stuck lactic acid in the body. The room is slightly heated to a temperature of around 35°C, helping your muscles to warm up and enhancing your flexibility. You will also get the additional benefits of detoxification from a good sweat!",
+      "teacher": "trainer2",
+      "schedule": {
+        "date": "10/11/2019",
+        "time": "10.00 AM"
+      },
+      "availability": "open"
+    },
+    {
+      "name": "Prenatal",
+      "image": "../static/pic/classtype/type5.jpg",
+      "description": "A class for all mother-to-be, to have a comfortable and enjoyable pregnancy through the techniques of breathing exercises, physical movements and postures to strengthen and relax the body, to ease the mind and to connect with their baby in a safe and supportive environment. Please check with your doctor before starting any exercise program.",
+      "teacher": "trainer2",
+      "schedule": {
+        "date": "10/11/2019",
+        "time": "10.00 AM"
+      },
+      "availability": "open"
+    }
+  ]
+}
